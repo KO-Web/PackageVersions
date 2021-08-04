@@ -1,5 +1,5 @@
 {
-    "name": "ocramius/package-versions",
+    "name": "koweb/package-versions",
     "description": "Provides efficient querying for installed package versions (no runtime IO)",
     "type": "library",
     "license": "MIT",
@@ -22,7 +22,8 @@
         "vimeo/psalm":              "^4.0.1"
     },
     "replace": {
-        "composer/package-versions-deprecated": "*"
+        "composer/package-versions-deprecated": "*",
+        "ocramius/package-versions": "*"
     },
     "autoload": {
         "psr-4": {
